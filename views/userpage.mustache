@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/public/main.css">
+</head>
+
+<body>
+  <h2>Index</h2>
+  <section class="user-index">
+    {{#users}}
+      <div class="user">
+        <img class="userAvatar" src="{{avatar}}" alt="">
+        <h2>{{name}}</h2>
+        {{#job}}
+          <p>{{job}}, {{company}}</p>
+        {{/job}}
+        {{^job}}
+        <p>Available for hire</p>
+        {{/job}}
+      </div>
+    {{/users}}
+  </section>
+</body>
+
+</html>

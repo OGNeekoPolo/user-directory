@@ -1,0 +1,26 @@
+{
+  "name": "user-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "36d3402e-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OGNeekoPolo/user-directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OGNeekoPolo/user-directory/issues"
+  },
+  "homepage": "https://github.com/OGNeekoPolo/user-directory#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4"
+  }
+}
