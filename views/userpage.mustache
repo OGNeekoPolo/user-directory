@@ -13,12 +13,12 @@
     {{#users}}
       <div class="user">
         <img class="userAvatar" src="{{avatar}}" alt="">
-        <h2>{{name}}</h2>
+        <h2 class="user-name">{{name}}</h2>
         {{#job}}
           <p>{{job}}, {{company}}</p>
         {{/job}}
         {{^job}}
-        <p>Available for hire</p>
+        <p class="alternate">Available for hire</p>
         {{/job}}
       </div>
     {{/users}}
